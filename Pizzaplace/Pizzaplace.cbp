@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Pizzaplace" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Pizzaplace" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include" />
+					<Add directory="UI" />
+					<Add directory="SERVICE" />
+					<Add directory="MODEL" />
+					<Add directory="REPO" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Pizzaplace" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+					<Add directory="UI" />
+					<Add directory="SERVICE" />
+					<Add directory="MODEL" />
+					<Add directory="REPO" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="MODEL/ExtraFood.cpp" />
+		<Unit filename="MODEL/ExtraFood.h" />
+		<Unit filename="MODEL/Location.cpp" />
+		<Unit filename="MODEL/Location.h" />
+		<Unit filename="MODEL/Order.cpp" />
+		<Unit filename="MODEL/Order.h" />
+		<Unit filename="MODEL/Pizza.cpp" />
+		<Unit filename="MODEL/Pizza.h" />
+		<Unit filename="MODEL/PizzaMenu.cpp" />
+		<Unit filename="MODEL/PizzaMenu.h" />
+		<Unit filename="MODEL/Topping.cpp" />
+		<Unit filename="MODEL/Topping.h" />
+		<Unit filename="REPO/ExtraFoodRepository.cpp" />
+		<Unit filename="REPO/ExtraFoodRepository.h" />
+		<Unit filename="REPO/LocationRepository.cpp" />
+		<Unit filename="REPO/LocationRepository.h" />
+		<Unit filename="REPO/OrderRepository.cpp" />
+		<Unit filename="REPO/OrderRepository.h" />
+		<Unit filename="REPO/PizzaMenuRepository.cpp" />
+		<Unit filename="REPO/PizzaMenuRepository.h" />
+		<Unit filename="REPO/PizzaRepository.cpp" />
+		<Unit filename="REPO/PizzaRepository.h" />
+		<Unit filename="REPO/ToppingRepository.cpp" />
+		<Unit filename="REPO/ToppingRepository.h" />
+		<Unit filename="SERVICE/ExtraFoodService.cpp" />
+		<Unit filename="SERVICE/ExtraFoodService.h" />
+		<Unit filename="SERVICE/LocationService.cpp" />
+		<Unit filename="SERVICE/LocationService.h" />
+		<Unit filename="SERVICE/OrderService.cpp" />
+		<Unit filename="SERVICE/OrderService.h" />
+		<Unit filename="SERVICE/PizzaMenuService.cpp" />
+		<Unit filename="SERVICE/PizzaMenuService.h" />
+		<Unit filename="SERVICE/PizzaService.cpp" />
+		<Unit filename="SERVICE/PizzaService.h" />
+		<Unit filename="SERVICE/ToppingService.cpp" />
+		<Unit filename="SERVICE/ToppingService.h" />
+		<Unit filename="UI/AdminUI.cpp" />
+		<Unit filename="UI/AdminUI.h" />
+		<Unit filename="UI/BakerUI.cpp" />
+		<Unit filename="UI/BakerUI.h" />
+		<Unit filename="UI/DeliveryUI.cpp" />
+		<Unit filename="UI/DeliveryUI.h" />
+		<Unit filename="UI/MainUI.cpp" />
+		<Unit filename="UI/MainUI.h" />
+		<Unit filename="UI/OrderUI.cpp" />
+		<Unit filename="UI/OrderUI.h" />
+		<Unit filename="UI/PizzaUI.cpp" />
+		<Unit filename="UI/PizzaUI.h" />
+		<Unit filename="UI/SalesUI.cpp" />
+		<Unit filename="UI/SalesUI.h" />
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

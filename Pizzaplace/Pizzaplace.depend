@@ -1,0 +1,397 @@
+# depslib dependency file v1.0
+1512399049 source:/home/andri/Desktop/Pizzaplace/main.cpp
+	<iostream>
+	"UI/MainUI.h"
+
+1512077739 /home/andri/Desktop/Pizzaplace/include/Superhero.h
+	<iostream>
+	<string>
+	<fstream>
+
+1512077737 source:/home/andri/Desktop/Pizzaplace/src/Superhero.cpp
+	"Superhero.h"
+
+1512078787 /home/andri/Desktop/Pizzaplace/include/MainUI.h
+	<iostream>
+
+1512088118 source:/home/andri/Desktop/Pizzaplace/src/MainUI.cpp
+	"MainUI.h"
+	"PizzaUI.h"
+
+1512395739 source:/home/andri/Desktop/Pizzaplace/src/Pizza.cpp
+	"Pizza.h"
+	<stddef.h>
+	<fstream>
+
+1512392043 /home/andri/Desktop/Pizzaplace/include/Pizza.h
+	"Topping.h"
+	<iostream>
+	<vector>
+
+1512396095 source:/home/andri/Desktop/Pizzaplace/src/Topping.cpp
+	"Topping.h"
+	<fstream>
+
+1512394847 /home/andri/Desktop/Pizzaplace/include/Topping.h
+	<iostream>
+	<string.h>
+
+1512336762 /home/andri/Desktop/Pizzaplace/include/PizzaUI.h
+	"PizzaRepository.h"
+
+1512393158 source:/home/andri/Desktop/Pizzaplace/src/PizzaUI.cpp
+	"PizzaUI.h"
+	"Pizza.h"
+	<iostream>
+
+1512339268 source:/home/andri/Desktop/Pizzaplace/src/PizzaRepository.cpp
+	"PizzaRepository.h"
+	<fstream>
+	"Pizza.h"
+	<iostream>
+
+1512336762 /home/andri/Desktop/Pizzaplace/include/PizzaRepository.h
+	"Pizza.h"
+
+1512393184 source:/home/andri/Desktop/Pizzaplace/src/ToppingRepository.cpp
+	"ToppingRepository.h"
+
+1512343545 /home/andri/Desktop/Pizzaplace/include/ToppingRepository.h
+	"Topping.h"
+
+1512563320 source:/home/andri/Desktop/Pizzaplace/REPO/PizzaRepository.cpp
+	"PizzaRepository.h"
+	<fstream>
+	"../MODEL/Pizza.h"
+	<iostream>
+
+1512513183 /home/andri/Desktop/Pizzaplace/REPO/PizzaRepository.h
+	<vector>
+	"../MODEL/Pizza.h"
+
+1512514380 /home/andri/Desktop/Pizzaplace/UI/MainUI.h
+	<iostream>
+
+1512395739 source:/home/andri/Desktop/Pizzaplace/MODEL/Pizza.cpp
+	"Pizza.h"
+	<stddef.h>
+	<fstream>
+
+1512563211 /home/andri/Desktop/Pizzaplace/MODEL/Pizza.h
+	"Topping.h"
+	<iostream>
+	<vector>
+
+1512598281 /home/andri/Desktop/Pizzaplace/MODEL/Topping.h
+	<iostream>
+	<string.h>
+
+1512597682 source:/home/andri/Desktop/Pizzaplace/MODEL/Topping.cpp
+	"Topping.h"
+	<fstream>
+
+1512658208 source:/home/andri/Desktop/Pizzaplace/REPO/ToppingRepository.cpp
+	"ToppingRepository.h"
+	<fstream>
+
+1512513088 /home/andri/Desktop/Pizzaplace/REPO/ToppingRepository.h
+	"../MODEL/Topping.h"
+	<vector>
+
+1512595395 source:/home/andri/Desktop/Pizzaplace/UI/PizzaUI.cpp
+	"PizzaUI.h"
+	"../MODEL/Pizza.h"
+	"../MODEL/Topping.h"
+	<iostream>
+
+1512514350 /home/andri/Desktop/Pizzaplace/UI/PizzaUI.h
+	"../REPO/PizzaRepository.h"
+	"../REPO/ToppingRepository.h"
+
+1512572826 source:/home/andri/Desktop/Pizzaplace/UI/MainUI.cpp
+	"MainUI.h"
+	"PizzaUI.h"
+	"AdminUI.h"
+
+1512656834 source:/home/andri/Desktop/Pizzaplace/UI/AdminUI.cpp
+	"AdminUI.h"
+	"../MODEL/ExtraFood.h"
+	"../MODEL/Topping.h"
+	"../MODEL/PizzaMenu.h"
+	<iostream>
+
+1512658487 /home/andri/Desktop/Pizzaplace/UI/AdminUI.h
+	"../REPO/ToppingRepository.h"
+	"../REPO/PizzaMenuRepository.h"
+	"../REPO/ExtraFoodRepository.h"
+	"../REPO/LocationRepository.h"
+	"../service/ToppingService.h"
+
+1512599034 source:/home/andri/Desktop/Pizzaplace/MODEL/ExtraFood.cpp
+	"ExtraFood.h"
+	<fstream>
+
+1512598283 /home/andri/Desktop/Pizzaplace/MODEL/ExtraFood.h
+	<iostream>
+	<string.h>
+
+1512602022 source:/home/andri/Desktop/Pizzaplace/MODEL/Location.cpp
+	"Location.h"
+	<fstream>
+
+1512601710 /home/andri/Desktop/Pizzaplace/MODEL/Location.h
+	<iostream>
+	<string.h>
+
+1512656748 source:/home/andri/Desktop/Pizzaplace/MODEL/PizzaMenu.cpp
+	"PizzaMenu.h"
+	<stddef.h>
+	<fstream>
+
+1512656748 /home/andri/Desktop/Pizzaplace/MODEL/PizzaMenu.h
+	"Topping.h"
+	<iostream>
+	<vector>
+
+1512596425 /home/andri/Desktop/Pizzaplace/REPO/PizzaMenuRepository.h
+	<vector>
+	"../MODEL/PizzaMenu.h"
+
+1512596335 source:/home/andri/Desktop/Pizzaplace/REPO/PizzaMenuRepository.cpp
+	"PizzaMenuRepository.h"
+	<fstream>
+	"../MODEL/PizzaMenu.h"
+	<iostream>
+
+1512599539 source:/home/andri/Desktop/Pizzaplace/REPO/ExtraFoodRepository.cpp
+	"ExtraFoodRepository.h"
+	<fstream>
+
+1512598279 /home/andri/Desktop/Pizzaplace/REPO/ExtraFoodRepository.h
+	"../MODEL/ExtraFood.h"
+	<vector>
+
+1512602049 source:/home/andri/Desktop/Pizzaplace/REPO/LocationRepository.cpp
+	"LocationRepository.h"
+	<fstream>
+
+1512601873 /home/andri/Desktop/Pizzaplace/REPO/LocationRepository.h
+	"../MODEL/Location.h"
+	<vector>
+
+1512658208 source:/home/andri/Desktop/Pizzaplace/service/ToppingService.cpp
+	"ToppingService.h"
+
+1512658245 /home/andri/Desktop/Pizzaplace/service/ToppingService.h
+	"../REPO/ToppingRepository.h"
+	"../REPO/PizzaMenuRepository.h"
+	"../REPO/ExtraFoodRepository.h"
+	"../REPO/LocationRepository.h"
+
+1512399048 source:/home/andri/Documents/Pizzaplace/main.cpp
+	<iostream>
+	"UI/MainUI.h"
+
+1512732291 /home/andri/Documents/Pizzaplace/UI/MainUI.h
+	<iostream>
+
+1512599034 source:/home/andri/Documents/Pizzaplace/MODEL/ExtraFood.cpp
+	"ExtraFood.h"
+	<fstream>
+
+1512598282 /home/andri/Documents/Pizzaplace/MODEL/ExtraFood.h
+	<iostream>
+	<string.h>
+
+1512602022 source:/home/andri/Documents/Pizzaplace/MODEL/Location.cpp
+	"Location.h"
+	<fstream>
+
+1512601710 /home/andri/Documents/Pizzaplace/MODEL/Location.h
+	<iostream>
+	<string.h>
+
+1512395738 source:/home/andri/Documents/Pizzaplace/MODEL/Pizza.cpp
+	"Pizza.h"
+	<stddef.h>
+	<fstream>
+
+1512563210 /home/andri/Documents/Pizzaplace/MODEL/Pizza.h
+	"Topping.h"
+	<iostream>
+	<vector>
+
+1512739374 /home/andri/Documents/Pizzaplace/MODEL/Topping.h
+	<iostream>
+	<string.h>
+
+1512736102 source:/home/andri/Documents/Pizzaplace/MODEL/PizzaMenu.cpp
+	"PizzaMenu.h"
+	<stddef.h>
+	<fstream>
+
+1512735642 /home/andri/Documents/Pizzaplace/MODEL/PizzaMenu.h
+	"Topping.h"
+	<iostream>
+	<vector>
+
+1512739368 source:/home/andri/Documents/Pizzaplace/MODEL/Topping.cpp
+	"Topping.h"
+	<fstream>
+
+1512599538 source:/home/andri/Documents/Pizzaplace/REPO/ExtraFoodRepository.cpp
+	"ExtraFoodRepository.h"
+	<fstream>
+
+1512598278 /home/andri/Documents/Pizzaplace/REPO/ExtraFoodRepository.h
+	"../MODEL/ExtraFood.h"
+	<vector>
+
+1512602048 source:/home/andri/Documents/Pizzaplace/REPO/LocationRepository.cpp
+	"LocationRepository.h"
+	<fstream>
+
+1512601872 /home/andri/Documents/Pizzaplace/REPO/LocationRepository.h
+	"../MODEL/Location.h"
+	<vector>
+
+1512737364 source:/home/andri/Documents/Pizzaplace/REPO/PizzaMenuRepository.cpp
+	"PizzaMenuRepository.h"
+	<fstream>
+	"../MODEL/PizzaMenu.h"
+	<iostream>
+
+1512596424 /home/andri/Documents/Pizzaplace/REPO/PizzaMenuRepository.h
+	<vector>
+	"../MODEL/PizzaMenu.h"
+
+1512731031 source:/home/andri/Documents/Pizzaplace/REPO/PizzaRepository.cpp
+	"PizzaRepository.h"
+	<fstream>
+	"../MODEL/Pizza.h"
+	<iostream>
+
+1512513182 /home/andri/Documents/Pizzaplace/REPO/PizzaRepository.h
+	<vector>
+	"../MODEL/Pizza.h"
+
+1512658208 source:/home/andri/Documents/Pizzaplace/REPO/ToppingRepository.cpp
+	"ToppingRepository.h"
+	<fstream>
+
+1512513088 /home/andri/Documents/Pizzaplace/REPO/ToppingRepository.h
+	"../MODEL/Topping.h"
+	<vector>
+
+1512732283 source:/home/andri/Documents/Pizzaplace/UI/MainUI.cpp
+	"MainUI.h"
+	"AdminUI.h"
+	"SalesUI.h"
+	"BakerUI.h"
+	"DeliveryUI.h"
+	<stdlib.h>
+	<stdio.h>
+
+1512514350 /home/andri/Documents/Pizzaplace/UI/PizzaUI.h
+	"../REPO/PizzaRepository.h"
+	"../REPO/ToppingRepository.h"
+
+1512681091 /home/andri/Documents/Pizzaplace/UI/AdminUI.h
+	"../REPO/ToppingRepository.h"
+	"../REPO/PizzaMenuRepository.h"
+	"../REPO/ExtraFoodRepository.h"
+	"../REPO/LocationRepository.h"
+	"../SERVICE/ToppingService.h"
+
+1512658244 /home/andri/Documents/Pizzaplace/service/ToppingService.h
+	"../REPO/ToppingRepository.h"
+	"../REPO/PizzaMenuRepository.h"
+	"../REPO/ExtraFoodRepository.h"
+	"../REPO/LocationRepository.h"
+
+1512595394 source:/home/andri/Documents/Pizzaplace/UI/PizzaUI.cpp
+	"PizzaUI.h"
+	"../MODEL/Pizza.h"
+	"../MODEL/Topping.h"
+	<iostream>
+
+1512658208 source:/home/andri/Documents/Pizzaplace/SERVICE/ToppingService.cpp
+	"ToppingService.h"
+
+1512658244 /home/andri/Documents/Pizzaplace/SERVICE/ToppingService.h
+	"../REPO/ToppingRepository.h"
+	"../REPO/PizzaMenuRepository.h"
+	"../REPO/ExtraFoodRepository.h"
+	"../REPO/LocationRepository.h"
+
+1512739368 source:/home/andri/Documents/Pizzaplace/UI/AdminUI.cpp
+	"AdminUI.h"
+	"../MODEL/ExtraFood.h"
+	"../MODEL/Topping.h"
+	"../MODEL/PizzaMenu.h"
+	"../SERVICE/ToppingService.h"
+	<iostream>
+	<stdlib.h>
+	<stdio.h>
+
+1512684227 source:/home/andri/Documents/Pizzaplace/UI/SalesUI.cpp
+	"SalesUI.h"
+	<stdio.h>
+	<iostream>
+
+1512683566 /home/andri/Documents/Pizzaplace/UI/SalesUI.h
+
+1512687072 source:/home/andri/Documents/Pizzaplace/UI/BakerUI.cpp
+	"BakerUI.h"
+	<stdio.h>
+	<iostream>
+
+1512687051 /home/andri/Documents/Pizzaplace/UI/BakerUI.h
+
+1512688877 source:/home/andri/Documents/Pizzaplace/MODEL/Order.cpp
+	"Order.h"
+
+1512688877 /home/andri/Documents/Pizzaplace/MODEL/Order.h
+
+1512688829 source:/home/andri/Documents/Pizzaplace/SERVICE/ExtraFoodService.cpp
+	"ExtraFoodService.h"
+
+1512688829 /home/andri/Documents/Pizzaplace/SERVICE/ExtraFoodService.h
+
+1512688800 source:/home/andri/Documents/Pizzaplace/SERVICE/LocationService.cpp
+	"LocationService.h"
+
+1512688800 /home/andri/Documents/Pizzaplace/SERVICE/LocationService.h
+
+1512688770 source:/home/andri/Documents/Pizzaplace/SERVICE/PizzaMenuService.cpp
+	"PizzaMenuService.h"
+
+1512688770 /home/andri/Documents/Pizzaplace/SERVICE/PizzaMenuService.h
+
+1512688732 source:/home/andri/Documents/Pizzaplace/SERVICE/PizzaService.cpp
+	"PizzaService.h"
+
+1512688732 /home/andri/Documents/Pizzaplace/SERVICE/PizzaService.h
+
+1512732105 source:/home/andri/Documents/Pizzaplace/UI/DeliveryUI.cpp
+	"DeliveryUI.h"
+	<stdio.h>
+	<iostream>
+
+1512732124 /home/andri/Documents/Pizzaplace/UI/DeliveryUI.h
+
+1512688689 source:/home/andri/Documents/Pizzaplace/UI/OrderUI.cpp
+	"OrderUI.h"
+
+1512688689 /home/andri/Documents/Pizzaplace/UI/OrderUI.h
+
+1512689104 source:/home/andri/Documents/Pizzaplace/REPO/OrderRepository.cpp
+	"OrderRepository.h"
+
+1512689104 /home/andri/Documents/Pizzaplace/REPO/OrderRepository.h
+
+1512689026 source:/home/andri/Documents/Pizzaplace/SERVICE/OrderService.cpp
+	"OrderService.h"
+
+1512689026 /home/andri/Documents/Pizzaplace/SERVICE/OrderService.h
+
