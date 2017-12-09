@@ -1,3 +1,8 @@
 hawaiian,1500,Skinka,Ananas,
 skdkdka,234,Applerlinsu,Green Bell Pepper,Ham,
 asdjkf;asdjkf,0,
+Pizza,0,
+hawaiians,1500,Epli,Skinka,Applerlinsu,
+uiii,0,hamstur,Skinka,ornad,
+menupissa,400,Skinka,Applerlinsu,Ham,
+ion,344,Epli,Green Bell Pepper,ddd,

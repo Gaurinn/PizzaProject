@@ -48,6 +48,7 @@ PizzaMenu PizzaMenuRepository::retrievePizzaMenu(){                         ///r
 vector<PizzaMenu> PizzaMenuRepository::retrieveAllPizzasMenu(){              ///read all pizzas from binary file
 
 ///text file
+    vector<PizzaMenu> pizzamenu;
 
     ifstream fin("PizzaMenu.txt");
 
@@ -55,10 +56,6 @@ vector<PizzaMenu> PizzaMenuRepository::retrieveAllPizzasMenu(){              ///
         string line;
         while(!fin.eof()){
             getline(fin, line);
-
-
-
-
         //GetAllSalary getallsalary;
         //getallsalary.parseString(line, kennitala);
 
@@ -68,34 +65,6 @@ vector<PizzaMenu> PizzaMenuRepository::retrieveAllPizzasMenu(){              ///
     else {
         cout << "unable to open file";
     }
+    return pizzamenu;
 }
 
-
-
-
-
-
-
-
-///binary
-   /* vector<PizzaMenu> pizzasmenu;
-
-    ifstream fin;
-    fin.open("pizzaMenuBinary.bin", ios::binary);
-
-    PizzaMenu pizzamenu;
-    while(true){
-        int filePos = fin.tellg();          //current position in file
-        fin.seekg(0, fin.end);              //go to end
-        int endPos = fin.tellg();           //end position in file
-        if((endPos - filePos) <= 1){        //if true last record read... not enough space left for whole record
-            break;
-        }
-        fin.seekg(filePos);
-        pizzamenu.read(fin);
-        pizzasmenu.push_back(pizzamenu);
-    }
-    fin.close();
-    return pizzasmenu;
-
-}*/

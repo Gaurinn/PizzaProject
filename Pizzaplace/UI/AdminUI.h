@@ -5,6 +5,7 @@
 #include "../REPO/ExtraFoodRepository.h"
 #include "../REPO/LocationRepository.h"
 #include "../SERVICE/ToppingService.h"
+#include "PizzaMenuService.h"
 
 
 class AdminUI
@@ -21,6 +22,9 @@ class AdminUI
         PizzaMenuRepository pizzaMenuRepo;
         ExtraFoodRepository extraFoodRepo;
         LocationRepository locationRepo;
+
+        PizzaMenuService pizzaMenuService;
+
 
 };
 

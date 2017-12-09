@@ -9,6 +9,7 @@ class Order
         virtual ~Order();
     protected:
     private:
+
 };
 
 #endif // ORDER_H

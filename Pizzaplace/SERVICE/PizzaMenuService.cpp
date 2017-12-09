@@ -9,3 +9,14 @@ PizzaMenuService::~PizzaMenuService()
 {
     //dtor
 }
+
+vector<PizzaMenu> PizzaMenuService::retrieveAllMenu(){
+
+    vector<PizzaMenu> pizzamenu;
+
+
+    pizzamenurepo.retrieveAllPizzasMenu();
+
+
+    return pizzamenu;
+}

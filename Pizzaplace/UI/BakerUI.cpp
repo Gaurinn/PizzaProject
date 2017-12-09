@@ -23,18 +23,11 @@ void BakerUI::startUI(){
 
         ///list all locations and have baker choose his location
 
-        cout << "List all locations" << endl;
-        cout << "please pick a location" << endl;
-        cout << "List all pizzas for that location" << endl;
-        cout << "Choose a pizza" << endl;
-        cout << "Mark that pizza as 'in oven or 'ready'" << endl;
+        //get list of all pizzas for this location
+
+        //mark pizza as 'not ready' or 'ready'
 
         cin >> selection;
-
-        if(selection == 'l'){
-            clear();//clearing screen
-            cout << "Need to program stuff to make stuff work" << endl;
-        }
 
     }
 }
