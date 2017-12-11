@@ -1,6 +1,6 @@
 #ifndef BAKERUI_H
 #define BAKERUI_H
-
+#include "LocationRepository.h"
 
 class BakerUI
 {
@@ -8,6 +8,8 @@ class BakerUI
         BakerUI();
         void startUI();
     private:
+        LocationRepository locationRepo;
+
 };
 
 #endif // BAKERUI_H

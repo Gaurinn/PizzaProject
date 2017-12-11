@@ -34,8 +34,7 @@ void Location::read(ifstream& fin){ ///read from binary file
 }
 
 ostream& operator <<(ostream& outs, const Location& location){
-    outs << "Location : " << location.name << endl;
-    outs << "Phone number: " << location.phone;
+    outs << location.name << " - - - - - Phone number: " << location.phone;
     return outs;
 
 }
@@ -48,3 +47,23 @@ istream& operator >>(istream& ins, Location& location){
     ins >> location.phone;
     return ins;
 }
+
+string Location::get_name(){
+
+    return name;
+}
+void Location::set_name(string name){
+
+    this->name = name;
+
+}
+double Location::get_phone(){
+
+    return phone;
+}
+void Location::set_phone(int phone){
+
+    this->phone = phone;
+
+}
+

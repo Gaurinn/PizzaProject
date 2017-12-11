@@ -23,12 +23,26 @@ void DeliveryUI::startUI(){
 
         ///list all locations and have delivery staff choose his location
 
-        //get list of all orders for this location
 
-        //get list of all order marked as ready for this location
+        cout << "List of all Locations" << endl;
 
+        cout << "Please select your location" << endl;
 
+        cout << endl;
+
+        cout << endl;
+        cout << "Press any key to go back" << endl;
+        cout << endl;
+
+        clear();
+        cout << "List of all available locations" << endl;
+        cout << endl;
+        cout << "Press any key to go back" << endl;
+        cout << endl;
+        vector<Location> location = locationRepo.retrieveAllLocations(); //get all locations into a vector
+        for(unsigned int i = 0; i < location.size(); i++){            //print from vector
+            cout << "[" << i + 1 << "]" << location[i] << endl;
+        }
         cin >> selection;
-
     }
 }

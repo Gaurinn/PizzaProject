@@ -13,6 +13,7 @@ class LocationRepository
         void storeLocation(const Location& location);
         Location retrieveLocation();
         vector<Location> retrieveAllLocations();
+
     protected:
     private:
 };

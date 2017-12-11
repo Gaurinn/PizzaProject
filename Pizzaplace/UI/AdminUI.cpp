@@ -100,10 +100,8 @@ void AdminUI::startUI(){
                     ///add stuff to see all menu pizzas
                     vector<PizzaMenu> pizzamenu = pizzaMenuService.retrieveAllMenu();
                     for(unsigned int i = 0; i < pizzamenu.size(); i++){
-
                         cout << "[" << i + 1 << "]" << pizzamenu[i] << endl;
                     }
-
 
 
 
@@ -173,14 +171,18 @@ void AdminUI::startUI(){
                     cout << "Press any key to go back" << endl;
                     cout << endl;
 
-
-                    ///add stuff to see all Extra food and Drinks
-
-                    cout << "Here you should see a list of all Extra Food and Drinks" << endl;
-
-
-
-                    cin >> selection;
+                    if(selection == '1'){///see all extra food
+                        clear();
+                        cout << "List of all available extra food" << endl;
+                        cout << endl;
+                        cout << "Press any key to go back" << endl;
+                        cout << endl;
+                        vector<ExtraFood> extrafood = extraFoodRepo.retrieveAllExtraFood(); //get all toppings into a vector
+                        for(unsigned int i = 0; i < extrafood.size(); i++){            //print from vector
+                            cout << "[" << i + 1 << "]" << extrafood[i] << "kr." << endl;
+                        }
+                        cin >> selection;
+                    }
                 }
                 else if(selection == '2'){///add new Extra Food or Drink
                     selection = 'y';
@@ -219,12 +221,18 @@ void AdminUI::startUI(){
                     cout << "Press any key to go back" << endl;
                     cout << endl;
 
-
-                    ///add stuff to see all Locations
-
-                    cout << "Here you should see a list of all Locations" << endl;
-
-
+                    if(selection == '1'){///see all locations
+                        clear();
+                        cout << "List of all available locations" << endl;
+                        cout << endl;
+                        cout << "Press any key to go back" << endl;
+                        cout << endl;
+                        vector<Location> location = locationRepo.retrieveAllLocations(); //get all locations into a vector
+                        for(unsigned int i = 0; i < location.size(); i++){            //print from vector
+                            cout << "[" << i + 1 << "]" << location[i] << endl;
+                        }
+                        cin >> selection;
+                    }
 
                     cin >> selection;
                 }

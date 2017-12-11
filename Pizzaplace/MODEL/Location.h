@@ -14,6 +14,14 @@ class Location
         void write(ofstream& fout) const;
         void read(ifstream& fin);
 
+
+        string get_name();
+        void set_name(string name);
+        double get_phone();
+        void set_phone(int phone);
+
+
+
         friend ostream& operator <<(ostream& outs, const Location& location);
         friend istream& operator >>(istream& ins, Location& location);
 

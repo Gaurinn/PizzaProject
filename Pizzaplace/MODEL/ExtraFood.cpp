@@ -35,8 +35,7 @@ void ExtraFood::read(ifstream& fin){ ///read from binary file
 }
 
 ostream& operator <<(ostream& outs, const ExtraFood& extrafood){
-    outs << "Extra Food:    " << extrafood.name << endl;
-    outs << "Price:         " << extrafood.price;
+    outs << extrafood.name << "- - - - - " << extrafood.price;
     return outs;
 
 }
@@ -48,4 +47,23 @@ istream& operator >>(istream& ins, ExtraFood& extrafood){
     cout << "Price: ";
     ins >> extrafood.price;
     return ins;
+}
+
+string ExtraFood::get_name(){
+
+    return name;
+}
+void ExtraFood::set_name(string name){
+
+    this->name = name;
+
+}
+double ExtraFood::get_price(){
+
+    return price;
+}
+void ExtraFood::set_price(double price){
+
+    this->price = price;
+
 }

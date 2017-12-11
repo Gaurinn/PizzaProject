@@ -50,21 +50,28 @@ vector<PizzaMenu> PizzaMenuRepository::retrieveAllPizzasMenu(){              ///
 ///text file
     vector<PizzaMenu> pizzamenu;
 
-    ifstream fin("PizzaMenu.txt");
 
-    if(fin.is_open()){
-        string line;
-        while(!fin.eof()){
-            getline(fin, line);
-        //GetAllSalary getallsalary;
-        //getallsalary.parseString(line, kennitala);
 
-       }
-       fin.close();
-   }
+        string str;
+        ifstream fin;
+        fin.open("PizzaMenu.txt");
+
+        if(fin.is_open()){
+            while(!fin.eof()){
+                getline(fin, str);
+                cout << str << endl;
+            }
+        }
+
+
+
     else {
-        cout << "unable to open file";
+        cout << "Could not open file" << endl;
     }
+
+    fin.close();
+
+
     return pizzamenu;
 }
 

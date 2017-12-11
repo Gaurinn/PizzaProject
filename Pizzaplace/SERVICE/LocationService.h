@@ -1,5 +1,6 @@
 #ifndef LOCATIONSERVICE_H
 #define LOCATIONSERVICE_H
+#include "LocationRepository.h"
 
 
 class LocationService
@@ -9,6 +10,13 @@ class LocationService
         virtual ~LocationService();
     protected:
     private:
+
+
+
+        vector<Location> retrieveAllLocations();
+
+
+        LocationRepository locationrepo;
 };
 
 #endif // LOCATIONSERVICE_H
