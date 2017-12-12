@@ -41,8 +41,10 @@ vector<ExtraFood> ExtraFoodRepository::retrieveAllExtraFood(){ ///read all extra
         }
         fin.seekg(filePos);
         extrafood.read(fin);
+
         extrafoods.push_back(extrafood);
     }
+
     fin.close();
     return extrafoods;
 }

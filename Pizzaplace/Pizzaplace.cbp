@@ -84,14 +84,22 @@
 		<Unit filename="UI/BakerUI.h" />
 		<Unit filename="UI/DeliveryUI.cpp" />
 		<Unit filename="UI/DeliveryUI.h" />
+		<Unit filename="UI/ExtraFoodUI.cpp" />
+		<Unit filename="UI/ExtraFoodUI.h" />
+		<Unit filename="UI/LocationUI.cpp" />
+		<Unit filename="UI/LocationUI.h" />
 		<Unit filename="UI/MainUI.cpp" />
 		<Unit filename="UI/MainUI.h" />
 		<Unit filename="UI/OrderUI.cpp" />
 		<Unit filename="UI/OrderUI.h" />
+		<Unit filename="UI/PizzaMenuUI.cpp" />
+		<Unit filename="UI/PizzaMenuUI.h" />
 		<Unit filename="UI/PizzaUI.cpp" />
 		<Unit filename="UI/PizzaUI.h" />
 		<Unit filename="UI/SalesUI.cpp" />
 		<Unit filename="UI/SalesUI.h" />
+		<Unit filename="UI/ToppingUI.cpp" />
+		<Unit filename="UI/ToppingUI.h" />
 		<Unit filename="main.cpp" />
 		<Extensions>
 			<code_completion />

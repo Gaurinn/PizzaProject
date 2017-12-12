@@ -20,14 +20,7 @@ void BakerUI::startUI(){
         cout << "\tYou are logged in as Baker staff" << endl;
         cout << "*****************************************" << endl;
         cout << endl;
-
-        ///list all locations and have baker choose his location
-
-
-        cout << endl;
-
-        clear();
-        cout << "List of all available locations" << endl;
+        cout << "[#]: Please pick a location" << endl;
         cout << endl;
         cout << "Press 'q' to go back" << endl;
         cout << endl;
@@ -37,10 +30,23 @@ void BakerUI::startUI(){
         }
         cout << "Select your location" << endl;
         cin >> selection;
+
+
+        clear();
+        cout << "Please pick an order" << endl;
+        ///list all orders for selected location
+
+        ///pick an order from that list
+        cin >> selection;
+
+        cout << "Please pick a pizza to bake" << endl;
+        ///list all pizzas in selected order
+
+        ///pick a pizza from that list to be marked as is_ready
+        cin >> selection;
+
     }
 }
 
-        //get list of all pizzas for this location
 
-        //mark pizza as 'not ready' or 'ready'
 

@@ -14,12 +14,15 @@ class ToppingService
         void set_toppingrepo(ToppingRepository toppingrepo);
         void storeTopping(Topping topping);
 
+        vector<Topping> retrieveAllToppingsService();
+
+
 
         virtual ~ToppingService();
     protected:
     private:
 
-        ToppingRepository toppingRepo;
+        ToppingRepository toppingrepo;
        /* PizzaMenuRepository pizzaMenuRepo;
         ExtraFoodRepository extraFoodRepo;
         LocationRepository locationRepo;*/

@@ -11,13 +11,17 @@ ExtraFoodService::~ExtraFoodService()
 }
 
 
-vector<ExtraFood> ExtraFoodService::retrieveAllExtraFood(){
+vector<ExtraFood> ExtraFoodService::retrieveAllExtraFoodService(){
 
-    vector<ExtraFood> extrafood;
-
-
-    extrafoodrepo.retrieveAllExtraFood();
+    vector<ExtraFood> extrafoods = extrafoodrepo.retrieveAllExtraFood();
 
 
-    return extrafood;
+    //cout << extrafoods[0].get_name() << endl;
+    return extrafoods;
+}
+
+void ExtraFoodService::storeExtraFoodService(const ExtraFood& extrafood){       ///store pizza to binary file
+
+    extrafoodrepo.storeExtraFood(extrafood);
+
 }

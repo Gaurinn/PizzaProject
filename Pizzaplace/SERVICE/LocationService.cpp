@@ -11,13 +11,17 @@ LocationService::~LocationService()
 }
 
 
-vector<Location> LocationService::retrieveAllLocations(){
+vector<Location> LocationService::retrieveAllLocationsService(){
 
-    vector<Location> location;
-
-
-    locationrepo.retrieveAllLocations();
+    vector<Location> location = locationrepo.retrieveAllLocations();
 
 
     return location;
+}
+
+
+void LocationService::storeLocationService(const Location& location){       ///store pizza to binary file
+
+    locationrepo.storeLocation(location);
+
 }

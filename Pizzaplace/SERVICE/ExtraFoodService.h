@@ -8,11 +8,16 @@ class ExtraFoodService
 {
     public:
         ExtraFoodService();
+
+
+        vector<ExtraFood> retrieveAllExtraFoodService();
+        void storeExtraFoodService(const ExtraFood& extrafood);
+
+
         virtual ~ExtraFoodService();
     protected:
     private:
 
-        vector<ExtraFood> retrieveAllExtraFood();
 
 
         ExtraFoodRepository extrafoodrepo;

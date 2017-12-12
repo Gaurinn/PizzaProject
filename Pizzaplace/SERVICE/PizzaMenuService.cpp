@@ -12,11 +12,16 @@ PizzaMenuService::~PizzaMenuService()
 
 vector<PizzaMenu> PizzaMenuService::retrieveAllMenu(){
 
-    vector<PizzaMenu> pizzamenu;
-
-
-    pizzamenurepo.retrieveAllPizzasMenu();
+    vector<PizzaMenu> pizzamenu = pizzamenurepo.retrieveAllPizzasMenu();
 
 
     return pizzamenu;
 }
+
+
+void PizzaMenuService::storePizzaMenuService(const PizzaMenu& pizzamenu){       ///store pizza to binary file
+
+    pizzamenurepo.storePizzaMenu(pizzamenu);
+
+}
+

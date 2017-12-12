@@ -25,6 +25,7 @@ class Pizza
     private:
 
         vector<Topping> toppings;
+        bool is_ready;
 
 };
 

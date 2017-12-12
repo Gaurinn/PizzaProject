@@ -7,13 +7,22 @@ class LocationService
 {
     public:
         LocationService();
+
+
+
+
+        vector<Location> retrieveAllLocationsService();
+        void storeLocationService(const Location& location);
+
+
+
         virtual ~LocationService();
     protected:
     private:
 
 
 
-        vector<Location> retrieveAllLocations();
+
 
 
         LocationRepository locationrepo;

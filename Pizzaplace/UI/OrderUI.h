@@ -1,16 +1,26 @@
 #ifndef ORDERUI_H
 #define ORDERUI_H
-
+#include "Order.h"
+#include "OrderService.h"
+#include "PizzaMenu.h"
+#include "PizzaMenuService.h"
+#include "ExtraFoodRepository.h"
+#include "ExtraFoodService.h"
 
 class OrderUI
 {
     public:
         OrderUI();
-        virtual ~OrderUI();
+
 
         void startUI();
-    protected:
+
     private:
+
+        PizzaMenuService pizzamenuservice;
+        OrderService orderservice;
+        ExtraFoodService extrafoodservice;
+        ExtraFoodRepository extrafoodrepo;
 };
 
 #endif // ORDERUI_H

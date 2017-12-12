@@ -12,6 +12,7 @@ class PizzaMenuService
         virtual ~PizzaMenuService();
 
         vector<PizzaMenu> retrieveAllMenu();
+        void storePizzaMenuService(const PizzaMenu& pizzamenu);
 
     protected:
     private:

@@ -6,6 +6,12 @@
 #include "../REPO/LocationRepository.h"
 #include "../SERVICE/ToppingService.h"
 #include "PizzaMenuService.h"
+#include "ExtraFoodService.h"
+#include "LocationService.h"
+#include "ToppingUI.h"
+#include "PizzaMenuUI.h"
+#include "ExtraFoodUI.h"
+#include "LocationUI.h"
 
 
 class AdminUI
@@ -19,12 +25,21 @@ class AdminUI
     private:
         ToppingService toppingservice;
         ToppingRepository toppingRepo;
+
         PizzaMenuRepository pizzaMenuRepo;
-        ExtraFoodRepository extraFoodRepo;
+        ExtraFoodRepository extrafoodrepo;
+
         LocationRepository locationRepo;
+        LocationService locationservice;
+
 
         PizzaMenuService pizzaMenuService;
+        ExtraFoodService extrafoodservice;
 
+        ToppingUI toppingui;
+        PizzaMenuUI pizzamenuui;
+        ExtraFoodUI extrafoodui;
+        LocationUI locationui;
 
 };
 

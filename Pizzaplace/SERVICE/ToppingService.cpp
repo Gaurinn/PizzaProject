@@ -13,16 +13,27 @@ ToppingService::~ToppingService()
 ToppingRepository ToppingService::get_toppingrepo(){
 
 
-    return toppingRepo;
+    return toppingrepo;
 }
+
+
+vector<Topping> ToppingService::retrieveAllToppingsService(){
+
+    vector<Topping> toppings = toppingrepo.retrieveAllToppings();
+
+
+    //cout << extrafoods[0].get_name() << endl;
+    return toppings;
+}
+
 
 void ToppingService::set_toppingrepo(ToppingRepository toppingrepo){
 
-    this->toppingRepo = toppingrepo;
+    this->toppingrepo = toppingrepo;
 }
 
 void ToppingService::storeTopping(Topping topping){
 
-    toppingRepo.storeTopping(topping);
+    toppingrepo.storeTopping(topping);
 
 }
